@@ -25,5 +25,14 @@ public class Capsule : Figure
     void OnMouseDown()
     {
         DisplayText();
+        SetName();
+    }
+
+    // ENCAPSULATION
+
+    private void SetName()
+    {
+        NameFigure = "CAPSULE";
+        Debug.Log(NameFigure);
     }
 }

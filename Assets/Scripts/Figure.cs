@@ -11,6 +11,7 @@ public class Figure : MonoBehaviour
     protected Color colorFigure; 
     Canvas Canvas;
     public TextMeshProUGUI textComp;
+    protected string NameFigure{get; set;}
     void Start()
     {
         colorFigure = new Color();

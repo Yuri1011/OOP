@@ -5,7 +5,7 @@ using UnityEngine;
 public class Sphree : Figure
 {
     // INHERITANCE
-    
+
     MeshRenderer cubeMR;
 
     void Start()
@@ -25,5 +25,14 @@ public class Sphree : Figure
     void OnMouseDown()
     {
         DisplayText();
+        SetName();
+    }
+
+    // ENCAPSULATION
+
+    private void SetName()
+    {
+        NameFigure = "SPHERE";
+        Debug.Log(NameFigure);
     }
 }

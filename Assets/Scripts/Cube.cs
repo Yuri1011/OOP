@@ -23,6 +23,15 @@ public class Cube : Figure
 
     void OnMouseDown()
     {
-        DisplayText(); 
+        DisplayText();
+        SetName();
+    }
+
+    // ENCAPSULATION
+
+    private void SetName()
+    {
+        NameFigure = "CUBE";
+        Debug.Log(NameFigure);
     }
 }
