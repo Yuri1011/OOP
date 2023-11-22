@@ -20,7 +20,7 @@ public class Cube : Figure
     {
         textComp.text = "Cube Clicked!";
     }
-
+    // ABSTRACTION
     void OnMouseDown()
     {
         DisplayText();

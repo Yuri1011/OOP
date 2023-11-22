@@ -21,7 +21,7 @@ public class Capsule : Figure
     {
         textComp.text = "Capsule Clicked!";
     }
-
+    // ABSTRACTION
     void OnMouseDown()
     {
         DisplayText();
