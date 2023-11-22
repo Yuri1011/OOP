@@ -21,7 +21,7 @@ public class Sphree : Figure
     {
         textComp.text = "Sphere Clicked!";
     }
-
+    // ABSTRACTION
     void OnMouseDown()
     {
         DisplayText();
